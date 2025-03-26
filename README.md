@@ -4,6 +4,8 @@ Run motors and ftc items through a power module and chromebook. Created by Willi
 
 # Setup
 
+Website: https://stardustoctopusweb.github.io/laughing-adventure/
+
 1. Open the website, plug in the controller and press the buttons to make it connect.
 2. Plug in the servo module via microusb after connecting the battery, click anywhere on the webpage.
 3. Choose the servo module in the serial window, and you should be good.
