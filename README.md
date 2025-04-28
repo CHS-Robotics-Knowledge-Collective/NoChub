@@ -1,5 +1,7 @@
 # NoChub
-Run motors and ftc items through a power module and chromebook. Created by William Dougherty - tweaks &amp; documentation by Keir Sampson
+Run motors and ftc items through a power module and chromebook. 
+
+Created by William Dougherty - tweaks &amp; documentation by Keir Sampson
 
 
 # Setup
@@ -12,3 +14,6 @@ Website: https://stardustoctopusweb.github.io/laughing-adventure/
 
 If it doesn't connect with serial, you might have to try a different usb port or computer. 
 If it ever has an error or disconnects, you have to reload the page and do step 2 and 3.
+
+Source:
+https://github.com/stardustoctopusweb/laughing-adventure/tree/main
