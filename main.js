@@ -66,28 +66,13 @@ async function run() {
     log("opening port...");
     const port = await navigator.serial.requestPort();
     await port.open({baudRate: 250_000});
-    
-    //write8(port, )
-    //write8(port, 72, 255-86);
+
 
     log("Writing to registers...");
     await write8(port, 72, 0);
     await write8(port, 68, 123);
 
-    //await write8(port, 67, 256-10); // down: 10 up: 256-10
-
-    //write8(port, 68, 0);
-    //await write8(port, 68, 0);
-    //await write8(port, 69, 20);
-
     await write8(port, 71, 0);
-    //await write8(port, 70, 256-20);
-    
-    //log( await read(port) );
-
-    //await sleep(1000000);
-
-    //alert("written!");
 
     let position = 0;
 
@@ -199,11 +184,6 @@ async function run() {
             log(E);
         }
     }, 1000);
-
-    //alert(done);
-    //readable.releaseLock();
-
-    //document.write(values);
 
     /*setTimeout(()=>{
         log("closing normally!!");
