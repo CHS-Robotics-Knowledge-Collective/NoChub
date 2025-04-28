@@ -1,15 +1,3 @@
-/*
-const writable = port.writable.getWriter();
-    //for (let i = 0; i < 127; i++)
-    await writable.write(new Uint8Array([85, 170, /*128* /0, 68, 1, 0]));
-    let values = await read(port);
-    document.write(values + "\n");
-
-    await writable.write(new Uint8Array([85, 170, /*128* /0, 69, 1, 100]));
-    values = await read(port);
-    document.write(values + "\n");
-*/
-
 var log_count = 0;
 function log(message) {
     if (log_count++ > 100) {
